@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A simple Digital Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>A Simple Digital Clock</h1>
+    <h1 id="currentTime"></h1>
+    <h1 id="currentDate"></h1>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- 
+  VARIABLES I NEED
+
+  DECLARE four variables to hold: minutes, seconds, hours, am/pm.
+  DECLARE a varialble to hold currentDate.
+  
+  PSEUDOCODE
+  
+  Clock should have HH-MM-SS AM/PM
+  Seconds have to loop from 00 to 59.
+  Minutes have to loop from 00 to 59.
+  Hours have to loop from 1 to 12. Cero should not be shown at the beginning.
+  
+  When seconds get to 00, 1 have to be added to minutes.
+  When minutes get to 00, 1 have to be added to hours.
+  When hours get to 12, it should start from one again.
+  When hours get to 12, AM should chage to PM.
+
+  LOGIC
+  
+  LOOP: While the seconds are 00 to 59
+    IF seconds is 00,
+      ADD one to minutes
+  
+  LOOP: While the minutes are 00 to 59,
+    IF minutes is 00, 
+      ADD one to hours
+
+  LOOP: While the hours are 1 to 12
+    IF hours is 12,
+      ADD change AM to PM
+
+  LOOP: While the hours are 1 to 12
+    SET pastMeridiem to true,
+      ELSE set pastMeridiem to false
+
+-->
