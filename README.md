@@ -16,4 +16,4 @@ Nayka Vallejo - _Software Developer_
 
 Click [here](https://www.linkedin.com/in/nayka-vallejo-70044314b/) to visit my LinkedIn.
 
-Click [here](https://imcodingdreams.github.io/1-personal-website/index.html) to visit my website.
+Click [here](https://imcodingdreams.github.io/personal-website/) to visit my website.
