@@ -1,4 +1,3 @@
-const currentDate = new Date();
 
 function displayTime() {
   const currentDate = new Date();
